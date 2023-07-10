@@ -19,14 +19,12 @@ jobs:
         with:
           node-version: 16
 
-     - name: Change to client directory
+      - name: Change to client directory
         run: cd client
-
 
       - name: Install dependencies
         run: npm install
 
-        
       - name: Build project
         run: npm run build
 
